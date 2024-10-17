@@ -282,11 +282,3 @@ logits_mask=model(image.to('cpu').unsqueeze(0))
 pred_mask=torch.sigmoid(logits_mask)
 pred_mask=(pred_mask>0.5)*1.0
 
-
-
-"""# For updates about upcoming and current guided projects follow me on...
-
-Twitter : @parth_AI
-
-Linkedin : www.linkedin.com/in/pdhameliya
-"""
